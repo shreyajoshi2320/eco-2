@@ -1,4 +1,5 @@
 import React from 'react';
+import './Action.css';
 
 class Action extends React.Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class Action extends React.Component {
     const { name, co2Reduction, count } = this.state;
 
     return (
-      <div>
+      <div className='action'>
         <h2>Actions</h2>
         {this.props.ecoActions.map(action => (
           <div key={action.id}>

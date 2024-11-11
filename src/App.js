@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Action from "./components/Action";
 import Impact from "./components/Impact";
+import './App.css';
+
+
 
 
 const ecoActions = [

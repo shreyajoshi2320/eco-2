@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './Impact.css';
 
 class Impact extends React.Component {
   render() {
@@ -10,14 +10,12 @@ class Impact extends React.Component {
       0
     );
 
-
     const treesPlanted = Math.floor(totalCO2 / 10);
-
   
     const impactColor = totalCO2 < 0.5 ? 'red' : totalCO2 < 1 ? 'orange' : 'green';
 
     return (
-      <div>
+      <div className="impact">
         <h2>Impact Summary</h2>
         <p>Total CO₂ Reduction: {totalCO2.toFixed(2)} kg</p>
         <p style={{ color: impactColor }}>
