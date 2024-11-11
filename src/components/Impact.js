@@ -40,8 +40,7 @@ class Impact extends React.Component {
           <p>No actions tracked yet. Add some to get started!</p>
         )}
         
-        <button onClick={onAddAction}>Clear All For Today</button>
-      </div>
+             </div>
     );
   }
 }
